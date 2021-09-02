@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,24 @@
     <title>to do list</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1>To Do List</h1>
     <div class="app-container">
 
         <p>Add a New today</p>
-        <input type="text" name="addTodo" id="addTodo">
-        <button id="" class="BTN">+</button>
-        <ul class="list">
-            <li id="item">BUY milk</li>
-            <li id="item">Code 2 hours</li>
-            <li id="item">Hit the gym</li>
-            <li id="item">Do your mom <button>-</button></li>
+        <div class="input-div">
+            <input type="text" name="addTodo" id="addTodo">
+            <button id="AddBtn" class="BTN">+</button>
+        </div>
+        <ul id="toDoList" class="list">
+
         </ul>
 
-       
+
     </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>
